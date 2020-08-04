@@ -16,7 +16,7 @@ To get started follow these 3 easy steps…
 
 Import the package.
 
-```
+```swift
 import SwiftUI
 import Hyperhooks // Here.
 …
@@ -26,7 +26,7 @@ import Hyperhooks // Here.
 
 Add a `HxRootView` somewhere in your hierarchy.
 
-```
+```swift
 …
 @main
 struct MyApp: App {
