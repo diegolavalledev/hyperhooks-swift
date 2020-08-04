@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "HyperhooksCore",
+        "repositoryURL": "https://github.com/hyperhooks/hyperhooks-core",
+        "state": {
+          "branch": "develop",
+          "revision": "01e3157cbd1eabe17bccc8a61d1dce131bd4e7a4",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
