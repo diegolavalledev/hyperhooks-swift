@@ -13,7 +13,7 @@ let package = Package(
       targets: ["Hyperhooks"]),
   ],
   dependencies: [
-    .package(name: "HyperhooksCore", url: "https://github.com/hyperhooks/hyperhooks-core", .branch("develop"))
+    .package(name: "HyperhooksCore", url: "https://github.com/hyperhooks/hyperhooks-core", from: "1.0.0")
   ],
   targets: [
     .target(

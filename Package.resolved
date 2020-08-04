@@ -5,9 +5,9 @@
         "package": "HyperhooksCore",
         "repositoryURL": "https://github.com/hyperhooks/hyperhooks-core",
         "state": {
-          "branch": "develop",
-          "revision": "01e3157cbd1eabe17bccc8a61d1dce131bd4e7a4",
-          "version": null
+          "branch": null,
+          "revision": "1cc4a70f90c47d4ac5f3d1ae66512d61268daaa6",
+          "version": "1.0.0"
         }
       }
     ]
