@@ -19,8 +19,7 @@ let package = Package(
     .target(
       name: "Hyperhooks",
       dependencies: [
-        
-        "HyperhooksCore", // Comment-out to resolve Previews issues with Xcode 12 Beta 3
+        "HyperhooksCore", // Comment-out to resolve Previews issues with Xcode 12 Beta 4
       ],
       resources: [
         .copy("js/default-main.js"),

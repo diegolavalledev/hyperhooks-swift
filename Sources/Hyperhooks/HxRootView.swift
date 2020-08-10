@@ -2,7 +2,7 @@ import SwiftUI
 import Combine
 import JavaScriptCore
 
-import HyperhooksCore // Comment-out to resolve Previews issues with Xcode 12 Beta 3
+import HyperhooksCore // Comment-out to resolve Previews issues with Xcode 12 Beta 4
 
 public struct HxRootView : View {
 
@@ -92,7 +92,7 @@ public struct HxRootView : View {
     // Finally run the library's javascript
 
     let hhxCoreUrl =
-      Bundle.hyperhooks.url(forResource: "hyperhooks-core", withExtension: "js")! // Comment-out to resolve Previews issues with Xcode 12 Beta 3
+      Bundle.hyperhooks.url(forResource: "hyperhooks-core", withExtension: "js")! // Comment-out to resolve Previews issues with Xcode 12 Beta 4
       // Bundle.module.url(forResource: "hyperhooks-core.cached", withExtension: "js")!
 
     context.evaluateScript(try! String(contentsOf: hhxCoreUrl), withSourceURL: hhxCoreUrl)
